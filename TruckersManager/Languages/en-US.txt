@@ -1,0 +1,340 @@
+mt_game:Game;mtupd1
+mt_save_edit:Profile Editing;mtupd1
+mt_config:Config;mtupd1
+mt_more:More;mtupd1
+
+config_sharing_from:From:;:mmbupd1
+config_sharing_to:To:;mmbupd1
+config_sharing_to_copy:Copy:;
+config_sharing_checkbox_config:Config;
+config_sharing_checkbox_config_local:Config local;
+config_sharing_checkbox_cotrols:Controls;
+config_sharing_btn_copy:Copy;
+config_sharing_btn_copy_tt:Copy the selcted files from the selcted "From profile" to the selected "To profile".;
+config_sharing_btn_copy_tt_err_1:Please select a "To Profile".;
+config_sharing_btn_copy_tt_err_2:Please select a "From Profile".;
+config_sharing_btn_copy_tt_err_3:"To Profile" and "From Profile" are the same. Please select another profile.;
+
+lpw_paths:Paths:;:lpwupd1
+lpw_path:Path;
+lpw_path_err_tt:Path does not exists!;
+lpw_new_path:New path;
+lpw_btn_remove:Remove;
+lpw_btn_remove_tt:Please select a path!;
+lpw_btn_add:Add;
+lpw_btn_update_profiles:Update profiles;
+lpw_btn_update_profiles_tt:Update the profiles if you changed the pahts.;
+lpw_profile:Profile:;:lpwupd1
+lpw_save:Save:;:lpwupd1
+lpw_btn_load:Load;
+lpw_btn_load_tt:Load the selected profile and save.;
+lpw_btn_load_err_tt:Please select a profile and save!;
+lpw_language:Language:;:lpwupd1
+lpw_err:Errors:;
+lpw_err_profile:Please select a profile;
+lpw_err_save:Please select a save;
+
+nvw_title:New version available;
+nvw_info:A new version to download is available!;
+nvw_current_version:Your version:;
+nvw_latest_version:Latest version:;
+nvw_patch_notes:Patch notes:;
+nvw_btn_update:Update;
+nvm_btn_later:Later;
+nvw_btn_ignore:Ignore;
+nvw_btn_ignore_tt:Ignore the version;
+
+pw_title:Profile;
+pw_profile:Profile:;
+pw_save:Save:;
+pw_btn_change:Change;
+pw_btn_change_tt:Change the current profile and save.
+
+All not saved changes will be lost!;
+pw_create_backup:Create backup;
+pw_create_backup_tt:Create a backup of the profile.sii, game.sii and config.cfg file.
+
+(profile_save_edit_backup.sii, game_save_edit_backup.sii, config_save_edit_backup.cfg);
+pw_btn_save:Save;
+pw_btn_save_tt:Save the changes.;
+pw_ep:Experience points:;
+pw_ep_tt: Max: 9.999.999;
+pw_visited_cities:Visited cities:;
+pw_unlocked_dealers:Unlocked dealers:;
+pw_total_distance:Total distance:;
+
+cw_title:Company;
+cw_money:Money:;
+cw_hq:HQ:;
+cw_trucks:Trucks:;
+cw_trailers:Trailers:;
+cw_drivers:Drivers:;
+
+pt_tab:Profile;
+pt_profile_name:Profile name:;:ptupd1
+pt_profile_name_tt_read_only:Changing the profile name is only possible with local profiles.;
+pt_company_name:Company name:;:ptupd1
+pt_gender:Gender:;:ptupd1
+pt_profile_picture:Profile picture:;
+pt_company_logo:Company logo:;
+pt_brand:Brand:;
+
+st_tab:Skills;
+st_skill:Skill:;
+st_adr:ADR;
+st_distance:Job Distance;
+st_btn_distance_0:None;
+st_distance_level_0_0:--;
+st_distance_level_0_1:--;
+st_distance_level_1_0:+5pct higher reward for delivery distances longer than 250 km (155 mi).;
+st_distance_level_1_1:+25pct experience bonus for delivery distances longer than 250 km (155 mi).;
+st_distance_level_2_0:+10pct higher reward for delivery distances longer than 350 km (217 mi).;
+st_distance_level_2_1:+25pct experience bonus for delivery distances longer than 250 km (155 mi).;
+st_distance_level_3_0:+15pct higher reward for delivery distances longer than 550 km (341 mi).;
+st_distance_level_3_1:+25pct experience bonus for delivery distances longer than 250 km (155 mi).;
+st_distance_level_4_0:+20pct higher reward for delivery distances longer than 850 km (528 mi).;
+st_distance_level_4_1:+25pct experience bonus for delivery distances longer than 250 km (155 mi).;
+st_distance_level_5_0:+25pct higher reward for delivery distances longer than 1,100 km (683 mi).;
+st_distance_level_5_1:+25pct experience bonus for delivery distances longer than 250 km (155 mi).;
+st_distance_level_6_0:+30pct higher reward for delivery distances longer than 1,500 km (932 mi).;
+st_distance_level_6_1:+25pct experience bonus for delivery distances longer than 250 km (155 mi);
+st_heavy:High-Value Cargo ;
+st_btn_heavy_0:None;
+st_heavy_level_0_0:--;
+st_heavy_level_0_1:--;
+st_heavy_level_1_0:+5pct higher reward for a high-value delivery.;
+st_heavy_level_1_1:+18pct experience bonus for a high value delivery.;
+st_heavy_level_2_0:+10pct higher reward for a high value delivery.;
+st_heavy_level_2_1:+18pct experience bonus for a high value delivery.;
+st_heavy_level_3_0:+15pct higher reward for a high value delivery.;
+st_heavy_level_3_1:+18pct experience bonus for a high value delivery.;
+st_heavy_level_4_0:+20pct higher reward for a high value delivery.;
+st_heavy_level_4_1:+18pct experience bonus for a high value delivery.;
+st_heavy_level_5_0:+25pct higher reward for a high value delivery.;
+st_heavy_level_5_1:+18pct experience bonus for a high value delivery.;
+st_heavy_level_6_0:+30pct higher reward for a high value delivery.;
+st_heavy_level_6_1:+18pct experience bonus for a high value delivery.;
+st_fragile:Fragile Cargo;
+st_btn_fragile_0:None;
+st_fragile_level_0_0:--;
+st_fragile_level_0_1:--;
+st_fragile_level_1_0:+5pct higher reward for delivering a fragile cargo.;
+st_fragile_level_1_1:+22pct experience bonus for delivering a fragile cargo.;
+st_fragile_level_2_0:+10pct higher reward for delivering a fragile cargo.;
+st_fragile_level_2_1:+22pct experience bonus for delivering a fragile cargo.;
+st_fragile_level_3_0:+15pct higher reward for delivering a fragile cargo.;
+st_fragile_level_3_1:+22pct experience bonus for delivering a fragile cargo.;
+st_fragile_level_4_0:+20pct higher reward for delivering a fragile cargo.;
+st_fragile_level_4_1:+22pct experience bonus for delivering a fragile cargo.;
+st_fragile_level_5_0:+25pct higher reward for delivering a fragile cargo.;
+st_fragile_level_5_1:+22pct experience bonus for delivering a fragile cargo.;
+st_fragile_level_6_0:+30pct higher reward for delivering a fragile cargo.;
+st_fragile_level_6_1:+22pct experience bonus for delivering a fragile cargo.;
+st_urgent:Just-In-Time Delivery;
+st_btn_urgent_0:None;
+st_urgent_level_0_0:--;
+st_urgent_level_0_1:--;
+st_urgent_level_0_2:--;
+st_urgent_level_1_0:+3pct higher reward for finishing an important delivery.;
+st_urgent_level_1_1:+20pct experience bonus for finishing an important delivery.;
+st_urgent_level_1_2:;
+st_urgent_level_2_0:+6pct higher reward for finishing an important delivery.;
+st_urgent_level_2_1:+10pct higher reward for finishing an urgent delivery.;
+st_urgent_level_2_2:+30pct experience bonus for finishing an urgent delivery.;
+st_urgent_level_3_0:+9pct higher reward for finishing an important delivery.;
+st_urgent_level_3_1:+15pct higher reward for finishing an urgent delivery.;
+st_urgent_level_3_2:+30pct experience bonus for finishing an urgent delivery.;
+st_urgent_level_4_0:+12pct higher reward for finishing an important delivery.;
+st_urgent_level_4_1:+20pct higher reward for finishing an urgent delivery.;
+st_urgent_level_4_2:+30pct experience bonus for finishing an urgent delivery.;
+st_urgent_level_5_0:+15pct higher reward for finishing an important delivery.;
+st_urgent_level_5_1:+25pct higher reward for finishing an urgent delivery.;
+st_urgent_level_5_2:+30pct experience bonus for finishing an urgent delivery.;
+st_urgent_level_6_0:+18pct higher reward for finishing an important delivery.;
+st_urgent_level_6_1:+30pct higher reward for finishing an urgent delivery.;
+st_urgent_level_6_2:+30pct experience bonus for finishing an urgent delivery.;
+st_mechanical:Eco-Driving;
+st_btn_mechanical_0:None;
+st_mechanical_level_0_0:--;
+st_mechanical_level_1_0:Up to 10pct of fuel saved when driving.;
+st_mechanical_level_2_0:Up to 15pct of fuel saved when driving.;
+st_mechanical_level_3_0:Up to 20pct of fuel saved when driving.;
+st_mechanical_level_4_0:Up to 25pct of fuel saved when driving.;
+st_mechanical_level_5_0:Up to 30pct of fuel saved when driving.;
+st_mechanical_level_6_0:Up to 35pct of fuel saved when driving.;
+
+vt_tab:Vehicle;
+vt_truck:Truck;
+vt_trailer:Trailer;
+vt_no_truck:You don't have your own trucks!;
+vt_no_trailer:You don't have your own trailers!;
+vt_current_truck:Current truck:;
+vt_fuel:Fuel:;
+vt_btn_refuel:Refuel;
+vt_engine:Engine:;
+vt_transmission:Transmission:;
+vt_chassis:Chassis:;
+vt_cabin:Cabin:;
+vt_tires:Tires:;
+vt_btn_repair:Repair;
+vt_damage:Damage:;
+vt_body:Body:;
+vt_btn_repair_all_trucks:Repair all;
+vt_btn_repair_all_trucks_tt:Repair and refuel all trucks;
+vt_btn_repair_all_tt:Repair damage;
+vt_btn_repair_all_trailers:Repair all;
+vt_btn_repair_all_trailers_tt:Repair all trailers;
+vt_cargo:Cargo:;
+vt_trailer_mass:Trailer mass:;
+vt_cargo_mass:Cargo mass:;
+vt_slave_trailer:Trailer count:;
+vt_current_selected:Currently selected;
+vt_name:Name:;
+vt_id:ID:;
+
+ct_title:Configuration;
+ct_profile_config:Profile;
+ct_checkbox_cutscene:Cutscenes;:ctupd2
+ct_program_config:Program;
+ct_system:System;
+ct_language:Language:;:ctupd1
+ct_start_tab:Start Tab:;ctupd1
+ct_console:Console:;ctupd1
+ct_auto_update:Auto update:;
+ct_auto_update_tt:Search automatically for a new update at the start of the app;
+ct_btn_update:Search for updates;ctupd1
+ct_latest_version:No newer version available;
+ct_save_time:The config is saved when saving the profile;
+ct_style:Style;
+ct_template:Templates:;
+ct_save_as:Save as:;
+ct_btn_template_delete:Delete;
+ct_new_template_name:Template name;
+ct_btn_template_save:Save as: ;
+ct_btn_template_save_tt:Changing standard styles is not allowed.;
+ct_sizes:Sizes;
+ct_scrollbar_size:Scrollbar:;:ctupd1
+ct_grab_min_size:Grab:;:ctupd1
+ct_borders:Borders;
+ct_window_border_size:Window:;:ctupd1
+ct_child_border_size:Child:;:ctupd1
+ct_frame_border_size:Frame:;:ctupd1
+ct_tab_border_size:Tab:;:ctupd1
+ct_rounding:Rounding;
+ct_window_rounding:Window:;:ctupd1
+ct_child_rounding:Child:;:ctupd1
+ct_frame_rounding:Frame:;:ctupd1
+ct_scrollbar_rounding:Scrollbar:;:ctupd1
+ct_grab_rounding:Grab:;:ctupd1
+ct_tab_rounding:Tab:;:ctupd1
+ct_alignment:Alignment;
+ct_window_title_align:Window title:;:ctupd1
+ct_button_text_align:Button text:;:ctupd1
+ct_colors:Colors;
+ct_imgui_style:Style:;:ctupd1
+ct_imgui_text:Text:;:ctupd1
+ct_imgui_text_disabled:Text disabled:;:ctupd1
+ct_imgui_window_bg:Window background:;:ctupd1
+ct_imgui_child_bg:Child background:;:ctupd1
+ct_imgui_popup_bg:Popup background:;:ctupd1
+ct_imgui_border:Border:;:ctupd1
+ct_imgui_border_shadow:Border shadow:;:ctupd1
+ct_imgui_frame_bg:Frame background:;:ctupd1
+ct_imgui_frame_bg_hovered:Frame background hovered:;:ctupd1
+ct_imgui_frame_bg_active:Frame background active:;:ctupd1
+ct_imgui_title_bg:Title background:;:ctupd1
+ct_imgui_title_bg_active:Title background active:;:ctupd1
+ct_imgui_title_bg_collapsed:Title background collapsed:;:ctupd1
+ct_imgui_menu_bar_bg:Menu bar background:;:ctupd1
+ct_imgui_scrollbar_bg:Scrollbar background:;:ctupd1
+ct_imgui_scrollbar_grab:Scrollbar grab:;:ctupd1
+ct_imgui_scrollbar_grab_hovered:Scrollbar grab hovered:;:ctupd1
+ct_imgui_scrollbar_grab_active:Scrollbar grab active:;:ctupd1
+ct_imgui_check_mark:Check mark:;:ctupd1
+ct_imgui_slider_grab:Slider grab:;:ctupd1
+ct_imgui_slider_grab_active:Slider grab active:;:ctupd1
+ct_imgui_button:Button:;:ctupd1
+ct_imgui_button_hovered:Button hovered:;:ctupd1
+ct_imgui_button_active:Button active:;:ctupd1
+ct_imgui_header:Header:;:ctupd1
+ct_imgui_header_hovered:Header hovered:;:ctupd1
+ct_imgui_header_active:Header active:;:ctupd1
+ct_imgui_separator:Separator:;:ctupd1
+ct_imgui_separator_hovered:Separator hovered:;:ctupd1
+ct_imgui_separator_active:Separator active:;:ctupd1
+ct_imgui_resize_grip:Resize grib:;:ctupd1
+ct_imgui_resize_grip_hovered:Resize grib hovered:;:ctupd1
+ct_imgui_resize_grip_active:Resize grib active:;:ctupd1
+ct_imgui_tab:Tab:;:ctupd1
+ct_imgui_tab_hovered:Tab hovered:;:ctupd1
+ct_imgui_tab_active:Tab active:;:ctupd1
+ct_imgui_tab_unfocused:Tab unfocused:;:ctupd1
+ct_imgui_tab_unfocused_active:Tab unfocused active:;:ctupd1
+ct_imgui_plot_lines:Plot lines:;:ctupd1
+ct_imgui_plot_lines_hovered:Plot lines hovered:;:ctupd1
+ct_imgui_plot_histogram:Plot histogram:;:ctupd1
+ct_imgui_plot_histogram_hovered:Plot histogram hovered:;:ctupd1
+ct_imgui_text_selected_bg:Text selected background:;:ctupd1
+ct_imgui_drag_drop_target:Drag drop target:;:ctupd1
+ct_imgui_nav_highlight:Nav highlight:;:ctupd1
+ct_imgui_nav_windowing_highlight:Nav windowing highlight:;:ctupd1
+ct_imgui_nav_windowing_dim_bg:Nav windowing dim:;:ctupd1
+ct_imgui_modal_window_dim_bg:Modal window dim background:;
+ct_btn_save:Save;
+ct_btn_reset:Reset settings;
+
+ms_title:More;
+ms_credits:Credits;
+ms_patchnotes:Patchnotes;
+ms_help:Help;
+ms_credits_icons:Icons:;
+ms_credits_icon_1:Icons made by Freepik from www.flaticon.com:;
+
+sw_btn_realtime_editing:Realtime Editing;:swupd1
+sw_btn_apps:Apps;:swupd1
+
+grew_title:Realtime Editing;
+grew_player_money:Money:;:gwupd1
+grew_run_ets:Please execute Euro Truck Simulator 2!;
+grew_supported_version:Tested ETS2 version:;
+grew_btn_reload_tt:Reload Apps;
+grew_btn_edit_tt:Edit;
+grew_btn_active_tt:Active;
+grew_btn_disabled_tt:Disabled;
+grew_btn_save:Save;
+grew_btn_inject:Inject;
+grew_injected_successfully:Injected successfully!;
+grew_injected_error:Unable to inject. Please make sure that the game is running!;
+
+gaw_title:Apps;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,340 @@
+mt_game:Spiel;
+mt_save_edit:Profil Editieren;
+mt_config:Einstellungen;
+mt_more:Mehr;
+
+config_sharing_from:From:;:mmbupd1
+config_sharing_to:To:;mmbupd1
+config_sharing_to_copy:Kopiere:;
+config_sharing_checkbox_config:Config;
+config_sharing_checkbox_config_local:Config local;
+config_sharing_checkbox_cotrols:Controls;
+config_sharing_btn_copy:Kopieren;
+config_sharing_btn_copy_tt:Kopiere die ausgewählten Datein von dem "From Profile" zu dem "To Profile".;
+config_sharing_btn_copy_tt_err_1:Bitte wähle ein "To Profile".;
+config_sharing_btn_copy_tt_err_2:Bitte wähle ein "From Profile".;
+config_sharing_btn_copy_tt_err_3:"To Profile" und "From Profile" ist das selbe Profil. Bitte wähle ein anderes Profil.;
+
+lpw_paths:Pfade:;:lpwupd1
+lpw_path:Pfad;
+lpw_path_err_tt:Dieser Pfad existiert nicht!;
+lpw_new_path:Neuer Pfad;
+lpw_btn_remove:Entfernen;
+lpw_btn_remove_tt:Bitte wähle einen Pfad!;
+lpw_btn_add:Hinzufügen;
+lpw_btn_update_profiles:Profile aktualisieren;
+lpw_btn_update_profiles_tt:Aktualisiere die Profile wenn du die Pfade geändert hast.;
+lpw_profile:Profil:;:lpwupd1
+lpw_save:Spielstand:;:lpwupd1
+lpw_btn_load:Laden;
+lpw_btn_load_tt:Lade das ausgewählte Profil mit dem ausgewähltem Spielstand;
+lpw_btn_load_err_tt:Bitte wähle ein Profil und einen Spielstand!;
+lpw_language:Sprache:;:lpwupd1
+lpw_err:Fehler:;
+lpw_err_profile:Bitte wähle ein Profile;
+lpw_err_save:Bitte wähle ein Spielstand;
+
+nvw_title:Neue Version verfügbar;
+nvw_info:Eine neue Version ist verfügbar!;
+nvw_current_version:Deine Version:;
+nvw_latest_version:Neue Version:;
+nvw_patch_notes:Neuerungen:;
+nvw_btn_update:Aktualisieren;
+nvm_btn_later:Später;
+nvw_btn_ignore:Ignorieren;
+nvw_btn_ignore_tt:Ignoriere diese Version;
+
+pw_title:Profil;
+pw_profile:Profil:;
+pw_save:Spielstand:;
+pw_btn_change:Ändern;
+pw_btn_change_tt:Ändere das Profil und den Spielstand.
+
+Alle nicht gespicherten Änderungen gehen verloren!;
+pw_create_backup:Erstelle Backup;
+pw_create_backup_tt:Erstelle ein Backup von der profile.sii, game.sii und config.cfg Datei.
+
+(profile_save_edit_backup.sii, game_save_edit_backup.sii, config_save_edit_backup.cfg);
+pw_btn_save:Speichern;
+pw_btn_save_tt:Speichere die Änderungen.;
+pw_ep:Erfahrungspunkte:;
+pw_ep_tt: Max: 9.999.999;
+pw_visited_cities:Besuchte Städte:;
+pw_unlocked_dealers:Freigeschaltete Händler:;
+pw_total_distance:Gesamte Entfernung:;
+
+cw_title:Firma;
+cw_money:Geld:;
+cw_hq:HQ:;
+cw_trucks:LKW's:;
+cw_trailers:Auflieger:;
+cw_drivers:Fahrer:;
+
+pt_tab:Profil;
+pt_profile_name:Profil Name:;:ptupd1
+pt_profile_name_tt_read_only:Das ändern des Profil-Namen ist nur bei lokalen Profilen möglich!;
+pt_company_name:Firmenname:;:ptupd1
+pt_gender:Geschlecht:;:ptupd1
+pt_profile_picture:Profilbild:;
+pt_company_logo:Firmenlogo:;
+pt_brand:Marke:;
+
+st_tab:Skills;
+st_skill:Skill:;
+st_adr:ADR;
+st_distance:Fernfahrten;
+st_btn_distance_0:None;
+st_distance_level_0_0:--;
+st_distance_level_0_1:--;
+st_distance_level_1_0:+5pct höhere Vergütung für Lieferstrecken über 250 km (155 mi).;
+st_distance_level_1_1:+25pct Erfahrungsbonus für Lieferstrecken über 250 km (155 mi).;
+st_distance_level_2_0:+10pct höhere Vergütung für Lieferstrecken über 350 km (217 mi).;
+st_distance_level_2_1:;
+st_distance_level_3_0:+15pct höhere Vergütung für Lieferstrecken über 550 km (341 mi).;
+st_distance_level_3_1:;
+st_distance_level_4_0:+20pct höhere Vergütung für Lieferstrecken über 850 km (528 mi).;
+st_distance_level_4_1:;
+st_distance_level_5_0:+25pct höhere Vergütung für Lieferstrecken über 1,100 km (683 mi).;
+st_distance_level_5_1:;
+st_distance_level_6_0:+30pct höhere Vergütung für Lieferstrecken über 1,500 km (932 mi).;
+st_distance_level_6_1:;
+st_heavy:Hochwertige Fracht;
+st_btn_heavy_0:None;
+st_heavy_level_0_0:--;
+st_heavy_level_0_1:--;
+st_heavy_level_1_0:+5pct höhere Vergütung für das Ausliefern hochwertiger Fracht.;
+st_heavy_level_1_1:+18pct Erfahrungsbonus für das Ausliefern hochwertiger Fracht.;
+st_heavy_level_2_0:+10pct höhere Vergütung (Anstieg um 5%) für Lieferungen hochwertiger Fracht.;
+st_heavy_level_2_1:;
+st_heavy_level_3_0:+15pct höhere Vergütung (Anstieg um 5%) für Lieferungen hochwertiger Fracht.;
+st_heavy_level_3_1:;
+st_heavy_level_4_0:+20pct höhere Vergütung (Anstieg um 5%) für Lieferungen hochwertiger Fracht.;
+st_heavy_level_4_1:;
+st_heavy_level_5_0:+25pct höhere Vergütung (Anstieg um 5%) für Lieferungen hochwertiger Fracht.;
+st_heavy_level_5_1:;
+st_heavy_level_6_0:+30pct höhere Vergütung (Anstieg um 5%) für Lieferungen hochwertiger Fracht.;
+st_heavy_level_6_1:;
+st_fragile:Zerbrechliche Fracht;
+st_btn_fragile_0:None;
+st_fragile_level_0_0:--;
+st_fragile_level_0_1:--;
+st_fragile_level_1_0:+5pct höhere Vergütung für das Ausliefern zerbrechlicher Fracht.;
+st_fragile_level_1_1:+22pct Erfahrungsbonus für das Ausliefern zerbrechlicher Fracht.;
+st_fragile_level_2_0:+10pct höhere Vergütung (Anstieg um 5%) für Lieferungen zerbrechlicher Fracht.;
+st_fragile_level_2_1:;
+st_fragile_level_3_0:+15pct höhere Vergütung (Anstieg um 5%) für Lieferungen zerbrechlicher Fracht.;
+st_fragile_level_3_1:;
+st_fragile_level_4_0:+20pct höhere Vergütung (Anstieg um 5%) für Lieferungen zerbrechlicher Fracht.;
+st_fragile_level_4_1:;
+st_fragile_level_5_0:+25pct höhere Vergütung (Anstieg um 5%) für Lieferungen zerbrechlicher Fracht.;
+st_fragile_level_5_1:;
+st_fragile_level_6_0:+30pct höhere Vergütung (Anstieg um 5%) für Lieferungen zerbrechlicher Fracht.;
+st_fragile_level_6_1:;
+st_urgent:Just-In-Time-Lieferung;
+st_btn_urgent_0:None;
+st_urgent_level_0_0:--;
+st_urgent_level_0_1:--;
+st_urgent_level_0_2:--;
+st_urgent_level_1_0:+3pct höhere Vergütung für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_1_1:+20pct Erfahrungsbonus für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_1_2:;
+st_urgent_level_2_0:+6pct höhere Vergütung (Anstieg um 3%) für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_2_1:+10pct höhere Vergütung für das Abschließen einer dringenden Lieferung.;
+st_urgent_level_2_2:+30pct Erfahrungsbonus für das Abschließen einer dringenden Lieferung.;
+st_urgent_level_3_0:+9pct höhere Vergütung (Anstieg um 3%) für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_3_1:+15pct höhere Vergütung (Anstieg um 5%) für das Abschließen einer dringenden Lieferung.;
+st_urgent_level_3_2:;
+st_urgent_level_4_0:+12pct höhere Vergütung (Anstieg um 3%) für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_4_1:+20pct höhere Vergütung (Anstieg um 5%) für das Abschließen einer dringenden Lieferung.;
+st_urgent_level_4_2:;
+st_urgent_level_5_0:+15pct höhere Vergütung (Anstieg um 3%) für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_5_1:+25pct höhere Vergütung (Anstieg um 5%) für das Abschließen einer dringenden Lieferung.;
+st_urgent_level_5_2:;
+st_urgent_level_6_0:+18pct höhere Vergütung (Anstieg um 3%) für das Abschließen einer wichtigen Lieferung.;
+st_urgent_level_6_1:+30pct höhere Vergütung (Anstieg um 5%) für das Abschließen einer dringenden Lieferung.;
+st_urgent_level_6_2:;
+st_mechanical:Sparsame Fahrweise;
+st_btn_mechanical_0:None;
+st_mechanical_level_0_0:--;
+st_mechanical_level_1_0:Bis zu 10pct Kraftstoffersparnis bei Fahrten.;
+st_mechanical_level_2_0:Bis zu 15pct Kraftstoffersparnis bei Fahrten.;
+st_mechanical_level_3_0:Bis zu 20pct Kraftstoffersparnis bei Fahrten.;
+st_mechanical_level_4_0:Bis zu 25pct Kraftstoffersparnis bei Fahrten.;
+st_mechanical_level_5_0:Bis zu 30pct Kraftstoffersparnis bei Fahrten.;
+st_mechanical_level_6_0:Bis zu 35pct Kraftstoffersparnis bei Fahrten.;
+
+vt_tab:Fahrzeug;
+vt_truck:LKW;
+vt_trailer:Auflieger;
+vt_no_truck:Du hast keine eigenen LKWs!;
+vt_no_trailer:Du hast keine eigenen Auflieger!;
+vt_current_truck:Aktueller LKW:;
+vt_fuel:Treibstoff:;
+vt_btn_refuel:Tanken;
+vt_engine:Motor;
+vt_transmission:Getriebe:;
+vt_chassis:Fahrgestell:;
+vt_cabin:Kabine:;
+vt_tires:Reifen:;
+vt_btn_repair:Reparieren;
+vt_damage:Schaden:;
+vt_body:Aufbau;
+vt_btn_repair_all_trucks:Repariere alle;
+vt_btn_repair_all_trucks_tt:Repariere und tanke alle LKWs;
+vt_btn_repair_all_tt:Schaden reparieren;
+vt_btn_repair_all_trailers:Repariere alle;
+vt_btn_repair_all_trailers_tt:Repariere alle Auflieger;
+vt_cargo:Ladung:;
+vt_trailer_mass:Auflieger Gewicht:;
+vt_cargo_mass:Ladung`s Gewicht:;
+vt_slave_trailer:Anzahl Anhänger:;
+vt_current_selected:Zurzeit ausgewählt;
+vt_name:Name:;
+vt_id:ID:;
+
+ct_title:Einstellungen;
+ct_profile_config:Profil;
+ct_checkbox_cutscene:Cutscenes;:ctupd2
+ct_program_config:Programm;
+ct_system:System;
+ct_language:Sprache:;:ctupd1
+ct_start_tab:Start Tab:;ctupd1
+ct_console:Console:;ctupd1
+ct_auto_update:Auto update:;
+ct_auto_update_tt:Suche automatisch nach einem neuen Update am Start der App;
+ct_btn_update:Suche nach einem neuen Update;ctupd1
+ct_latest_version:Keine neuere Version verfügbar;
+ct_save_time:Die Einstellungen werden gespeichert wenn das Profil gespeichert wird;
+ct_style:Style;
+ct_template:Vorlagen:;
+ct_save_as:Speichern als:;
+ct_btn_template_delete:Löschen;
+ct_new_template_name:Template name;
+ct_btn_template_save:Speichern als: ;
+ct_btn_template_save_tt:Das Ändern von standard Vorlagen ist nicht erlaubt.;
+ct_sizes:Größen;
+ct_scrollbar_size:Scrollbar:;:ctupd1
+ct_grab_min_size:Grab:;:ctupd1
+ct_borders:Umrandungen;
+ct_window_border_size:Fenster:;:ctupd1
+ct_child_border_size:Child:;:ctupd1
+ct_frame_border_size:Frame:;:ctupd1
+ct_tab_border_size:Tab:;:ctupd1
+ct_rounding:Rundungen;
+ct_window_rounding:Fenster:;:ctupd1
+ct_child_rounding:Child:;:ctupd1
+ct_frame_rounding:Frame:;:ctupd1
+ct_scrollbar_rounding:Scrollbar:;:ctupd1
+ct_grab_rounding:Grab:;:ctupd1
+ct_tab_rounding:Tab:;:ctupd1
+ct_alignment:Ausrichtung;
+ct_window_title_align:Fenster Titel:;:ctupd1
+ct_button_text_align:Button Text:;:ctupd1
+ct_colors:Farben;
+ct_imgui_style:Style:;:ctupd1
+ct_imgui_text:Text:;:ctupd1
+ct_imgui_text_disabled:Text deaktiviert:;:ctupd1
+ct_imgui_window_bg:Fenster Hintergrund:;:ctupd1
+ct_imgui_child_bg:Child Hintergrund:;:ctupd1
+ct_imgui_popup_bg:Popup Hintergrund:;:ctupd1
+ct_imgui_border:Umrandungen:;:ctupd1
+ct_imgui_border_shadow:Umrandung's Schatten:;:ctupd1
+ct_imgui_frame_bg:Frame Hintergrund:;:ctupd1
+ct_imgui_frame_bg_hovered:Frame Hintergrund hovered:;:ctupd1
+ct_imgui_frame_bg_active:Frame Hintergrund active:;:ctupd1
+ct_imgui_title_bg:Titel Hintergrund:;:ctupd1
+ct_imgui_title_bg_active:Titel active Hintergrund:;:ctupd1
+ct_imgui_title_bg_collapsed:Titel Hintergrund collapsed:;:ctupd1
+ct_imgui_menu_bar_bg:Menu bar Hintergrund:;:ctupd1
+ct_imgui_scrollbar_bg:Scrollbar Hintergrund:;:ctupd1
+ct_imgui_scrollbar_grab:Scrollbar grab:;:ctupd1
+ct_imgui_scrollbar_grab_hovered:Scrollbar grab hovered:;:ctupd1
+ct_imgui_scrollbar_grab_active:Scrollbar grab active:;:ctupd1
+ct_imgui_check_mark:Check mark:;:ctupd1
+ct_imgui_slider_grab:Slider grab:;:ctupd1
+ct_imgui_slider_grab_active:Slider grab active:;:ctupd1
+ct_imgui_button:Button:;:ctupd1
+ct_imgui_button_hovered:Button hovered:;:ctupd1
+ct_imgui_button_active:Button active:;:ctupd1
+ct_imgui_header:Header:;:ctupd1
+ct_imgui_header_hovered:Header hovered:;:ctupd1
+ct_imgui_header_active:Header active:;:ctupd1
+ct_imgui_separator:Separator:;:ctupd1
+ct_imgui_separator_hovered:Separator hovered:;:ctupd1
+ct_imgui_separator_active:Separator active:;:ctupd1
+ct_imgui_resize_grip:Resize grib:;:ctupd1
+ct_imgui_resize_grip_hovered:Resize grib hovered:;:ctupd1
+ct_imgui_resize_grip_active:Resize grib active:;:ctupd1
+ct_imgui_tab:Tab:;:ctupd1
+ct_imgui_tab_hovered:Tab hovered:;:ctupd1
+ct_imgui_tab_active:Tab active:;:ctupd1
+ct_imgui_tab_unfocused:Tab unfocused:;:ctupd1
+ct_imgui_tab_unfocused_active:Tab unfocused active:;:ctupd1
+ct_imgui_plot_lines:Plot Linien:;:ctupd1
+ct_imgui_plot_lines_hovered:Plot Linien hovered:;:ctupd1
+ct_imgui_plot_histogram:Plot histogram:;:ctupd1
+ct_imgui_plot_histogram_hovered:Plot histogram hovered:;:ctupd1
+ct_imgui_text_selected_bg:Text selected Hintergrund:;:ctupd1
+ct_imgui_drag_drop_target:Drag drop Ziel:;:ctupd1
+ct_imgui_nav_highlight:Nav highlight:;:ctupd1
+ct_imgui_nav_windowing_highlight:Nav windowing highlight:;:ctupd1
+ct_imgui_nav_windowing_dim_bg:Nav windowing dim:;:ctupd1
+ct_imgui_modal_window_dim_bg:Modal window dim background:;
+ct_btn_save:Speichern;
+ct_btn_reset:Einstellungen zurücksetzen;
+
+ms_title:Mehr;
+ms_credits:Credits;
+ms_patchnotes:Patchnotes;
+ms_help:Hilfe;
+ms_credits_icons:Icons:;
+ms_credits_icon_1:Icons made by Freepik from www.flaticon.com:;
+
+sw_btn_realtime_editing:Echtzeit Editieren;:swupd1
+sw_btn_apps:Apps;:swupd1
+
+grew_title:Echtzeit Editieren;
+grew_player_money:Geld:;
+grew_run_ets:Bitte starte Euro Truck Simulator 2!;
+grew_supported_version:Getestete Euro Truck Simulator 2 Version:;
+grew_btn_reload_tt:Apps neu laden;
+grew_btn_edit_tt:Ändern;
+grew_btn_active_tt:Aktiviert;
+grew_btn_disabled_tt:Deaktiviert;
+grew_btn_save:Speichern;
+grew_btn_inject:Inject;
+grew_injected_successfully:Erfolgreich injected!;
+grew_injected_error:Unable to inject. Please make sure that the game is running!;
+
+gaw_title:Apps;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

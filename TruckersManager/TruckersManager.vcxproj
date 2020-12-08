@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{CBD3B1A4-2D4F-48FA-AA82-49103357E57C}</ProjectGuid>
+    <RootNamespace>TruckersManager</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\obj\$(Configuration)\$(Platform)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\obj\$(Configuration)\$(Platform)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\obj\$(Configuration)\$(Platform)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\$(Configuration)\$(Platform)</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\obj\$(Configuration)\$(Platform)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>tmpch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\include;$(SolutionDir)TruckersManager\dependencies\SOIL2\include;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\include;$(SolutionDir)TruckersManager\dependencies\imgui;$(SolutionDir)TruckersManager\src;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)TruckersManager\dependencies\SOIL2\lib\x86;$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\x86;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\lib\Release\Win32;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN32\lib-vc2015;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Advapi32.lib;User32.lib;Gdi32.lib;Shell32.lib;urlmon.lib;opengl32.lib;glfw3dll.lib;glew32.lib;soil2.lib;SII_Decrypt_32.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_X64;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>tmpch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\include;$(SolutionDir)TruckersManager\dependencies\SOIL2\include;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\include;$(SolutionDir)TruckersManager\dependencies\imgui;$(SolutionDir)TruckersManager\src;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)TruckersManager\dependencies\SOIL2\lib\x64;$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\x64;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN64\lib-vc2015;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Advapi32.lib;User32.lib;Gdi32.lib;Shell32.lib;urlmon.lib;opengl32.lib;glfw3dll.lib;glew32.lib;soil2.lib;SII_Decrypt_64.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>tmpch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\include;$(SolutionDir)TruckersManager\dependencies\SOIL2\include;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\include;$(SolutionDir)TruckersManager\dependencies\imgui;$(SolutionDir)TruckersManager\src;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)TruckersManager\dependencies\SOIL2\lib\x86;$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\x86;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\lib\Release\Win32;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN32\lib-vc2015;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Advapi32.lib;User32.lib;Gdi32.lib;Shell32.lib;urlmon.lib;opengl32.lib;glfw3dll.lib;glew32.lib;soil2.lib;SII_Decrypt_32.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_X64;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>tmpch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\include;$(SolutionDir)TruckersManager\dependencies\SOIL2\include;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\include;$(SolutionDir)TruckersManager\dependencies\imgui;$(SolutionDir)TruckersManager\src;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)TruckersManager\dependencies\SOIL2\lib\x64;$(SolutionDir)TruckersManager\dependencies\SII_Decrypt\x64;$(SolutionDir)TruckersManager\dependencies\glfw\glfw-3.2.1.bin.WIN64\lib-vc2015;$(SolutionDir)TruckersManager\dependencies\glew-2.1.0\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Advapi32.lib;User32.lib;Gdi32.lib;Shell32.lib;urlmon.lib;opengl32.lib;glfw3dll.lib;glew32.lib;soil2.lib;SII_Decrypt_64.lib;</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dependencies\imgui\imgui\imgui.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui\imgui_demo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui\imgui_draw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui\imgui_impl_glfw.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui\imgui_impl_opengl3.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui\imgui_widgets.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui\main.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Application\Application.cpp" />
+    <ClCompile Include="src\Application\Config\Config.cpp" />
+    <ClCompile Include="src\Application\main.cpp" />
+    <ClCompile Include="src\ETS2\Profile\Profile.cpp" />
+    <ClCompile Include="src\ETS2\Profile\Save\Save.cpp" />
+    <ClCompile Include="src\ETS2\Profile\Trailer\SlaveTrailer.cpp" />
+    <ClCompile Include="src\ETS2\Profile\Trailer\Trailer.cpp" />
+    <ClCompile Include="src\ETS2\Profile\Truck\Truck.cpp" />
+    <ClCompile Include="src\ETS2\SiiFileManager\SiiFileManager.cpp" />
+    <ClCompile Include="src\Scene\GameScene\ImGUI\AppsWindow\App\App.cpp" />
+    <ClCompile Include="src\tmpch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">tmpch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">tmpch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="src\Scene\ConfigScene\ConfigScene.cpp" />
+    <ClCompile Include="src\Scene\ConfigScene\ImGUI\ConfigWindow\ConfigWindow.cpp" />
+    <ClCompile Include="src\Scene\GameScene\GameScene.cpp" />
+    <ClCompile Include="src\Scene\GameScene\ImGUI\AppsWindow\AppsWindow.cpp" />
+    <ClCompile Include="src\Scene\GameScene\ImGUI\RealtimeEditingWindow\RealtimeEditingWindow.cpp" />
+    <ClCompile Include="src\Scene\GameScene\ImGUI\SelectionWindow\SelectionWindow.cpp" />
+    <ClCompile Include="src\Scene\MoreScene\MoreScene.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\CenterWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\ProfileTab\ProfileTab.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\SkillTab\SkillTab.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\VehicleTab\VehicleTab.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\CompanyWindow\CompanyWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\ConsoleWindow\ConsoleWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\LoadProfileWindow\LoadProfileWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\ProfileWindow\ProfileWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\Tools\ConfigSharingWindow\ConfigSharingWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\Tools\CreditsWindow\CreditsWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\ImGUI\Tools\PatchnotesWindow\PatchnotesWindow.cpp" />
+    <ClCompile Include="src\Scene\SaveEditScene\SaveEditScene.cpp" />
+    <ClCompile Include="src\Scene\Scene.cpp" />
+    <ClCompile Include="src\Utility\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="src\Utility\Timer\Timer.cpp" />
+    <ClCompile Include="src\Utility\Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\imgui\imgui\imconfig.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imgui.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imgui_impl_glfw.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imgui_impl_opengl3.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imgui_internal.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imstb_rectpack.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imstb_textedit.h" />
+    <ClInclude Include="dependencies\imgui\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\Application\Application.h" />
+    <ClInclude Include="src\Application\Config\Config.h" />
+    <ClInclude Include="src\ETS2\MemoryAddresses.h" />
+    <ClInclude Include="src\ETS2\Profile\Profile.h" />
+    <ClInclude Include="src\ETS2\Profile\Save\Save.h" />
+    <ClInclude Include="src\ETS2\Profile\Trailer\SlaveTrailer.h" />
+    <ClInclude Include="src\ETS2\Profile\Trailer\Trailer.h" />
+    <ClInclude Include="src\ETS2\Profile\Truck\Truck.h" />
+    <ClInclude Include="src\ETS2\SiiFileManager\SiiFileManager.h" />
+    <ClInclude Include="src\Scene\GameScene\ImGUI\AppsWindow\App\App.h" />
+    <ClInclude Include="src\tmpch.h" />
+    <ClInclude Include="src\Scene\ConfigScene\ConfigScene.h" />
+    <ClInclude Include="src\Scene\ConfigScene\ImGUI\ConfigWindow\ConfigWindow.h" />
+    <ClInclude Include="src\Scene\GameScene\GameScene.h" />
+    <ClInclude Include="src\Scene\GameScene\ImGUI\AppsWindow\AppsWindow.h" />
+    <ClInclude Include="src\Scene\GameScene\ImGUI\RealtimeEditingWindow\RealtimeEditingWindow.h" />
+    <ClInclude Include="src\Scene\GameScene\ImGUI\SelectionWindow\SelectionWindow.h" />
+    <ClInclude Include="src\Scene\MoreScene\MoreScene.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\CenterWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\ProfileTab\ProfileTab.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\SkillTab\SkillTab.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\CenterTabs\VehicleTab\VehicleTab.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\CompanyWindow\CompanyWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\ConsoleWindow\ConsoleWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\LoadProfileWindow\LoadProfileWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\ProfileWindow\ProfileWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\Tools\ConfigSharingWindow\ConfigSharingWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\Tools\CreditsWindow\CreditsWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\ImGUI\Tools\PatchnotesWindow\PatchnotesWindow.h" />
+    <ClInclude Include="src\Scene\SaveEditScene\SaveEditScene.h" />
+    <ClInclude Include="src\Scene\Scene.h" />
+    <ClInclude Include="src\Utility\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="src\Utility\Timer\Timer.h" />
+    <ClInclude Include="src\Utility\Utility.h" />
+    <ClInclude Include="src\Utility\UtilityInclude.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

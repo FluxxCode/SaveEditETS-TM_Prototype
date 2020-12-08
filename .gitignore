@@ -1,0 +1,25 @@
+# Directories
+.vs/
+bin/
+bin-int/
+Releases/
+TruckersManager/bin/
+TruckersManager/obj/
+TruckersManager/dependencies/
+tmapps/obj/
+tmapp/bin/
+
+
+# Files
+*.user
+cr_config.ini
+TODO.txt
+CreateRelease.exe
+CreateRelease_99310441.exe
+
+TruckersManager/patchnotes.txt
+TruckersManager/log.log
+TruckersManager/imgui.ini
+TruckersManager/Apps/*
+!TruckersManager/Apps/.gitkeep
+
